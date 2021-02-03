@@ -22,9 +22,8 @@ int main()
         }
         printf("\n");
     }
-        if(i != x){
+        if(i != x)
             printf("\n");
-        }
     }
     return 0;
 }
