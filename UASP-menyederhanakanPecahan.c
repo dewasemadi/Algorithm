@@ -24,13 +24,9 @@ int main ()
 			while(n1!=n2)
 			{
 				if(n1<n2)
-				{
 					n2-=n1;
-				}
 				else
-				{
 					n1-=n2;
-				}
 			}
 			printf("%d/%d\n", a/n1, b/n2);
 		}
